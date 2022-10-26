@@ -1,13 +1,17 @@
 import styled from "styled-components";
 
 export const Card = styled.div`
-  background-color: ${(props) => props.color};
-  border: 1px solid black;
-  margin: 16px;
-  max-width: 17rem;
-  text-align: center;
-  border-radius: 10px;
-  box-shadow: 10px 10px 30px #bdbdbd;
+    background-color: ${(props) => props.color};
+    border: 1px solid black;
+    margin: 16px;
+    max-width: 17rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px #bdbdbd;
+    img{
+        height: 236px;
+        padding: 15px;
+    }
 `;
 
 export const PokemonName = styled.h2`
@@ -27,5 +31,4 @@ export const EvolveButton = styled.button`
     border: none;
     cursor: pointer;
     box-shadow: 0 6px 30px -10px #000000;
-
 `
